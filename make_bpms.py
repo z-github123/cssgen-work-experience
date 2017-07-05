@@ -4,8 +4,8 @@ import os
 
 # Read the color and font data CSStudio configuration files
 example_dir = os.path.dirname(os.path.realpath(__file__))
-colors.parse_css_color_file(os.path.join(example_dir, 'color.def'))
-fonts.parse_css_font_file(os.path.join(example_dir, 'font.def'))
+colors.parse_css_color_file(os.path.join(example_dir, 'examples', 'color.def'))
+fonts.parse_css_font_file(os.path.join(example_dir, 'examples', 'font.def'))
 
 # Create the root widget
 d = widgets.Display(100, 100)
